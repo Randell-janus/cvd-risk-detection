@@ -33,15 +33,13 @@ export const FormProvider = ({ children }) => {
   const [data, setData] = useState("");
 
   const INIT_URL = "https://fastapi-ml-server.herokuapp.com/";
-  const PREDICT_URL = "https://fastapi-ml-server.herokuapp.com/predict";
+  const CVD_RISK_URL =
+    "https://fastapi-ml-server.herokuapp.com/detect_cvd_risk";
 
   const initializeServer = () => {
     fetch(INIT_URL)
       .then((response) => response.json())
-      .then((data) => {
-        // console.log(data);
-        setIsInitializing(false);
-      });
+      .then(() => setIsInitializing(false));
   };
 
   const handleInputChange = (e) => {
@@ -96,7 +94,7 @@ export const FormProvider = ({ children }) => {
     };
 
     try {
-      const response = await fetch(PREDICT_URL, {
+      const response = await fetch(CVD_RISK_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
