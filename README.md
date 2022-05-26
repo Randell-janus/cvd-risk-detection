@@ -18,3 +18,5 @@ A machine learning application for detecting risk of cardiovascular disease
   - ![](https://github.com/Randell-janus/cvd-risk-detection/blob/master/public/snapshots/view1.JPG)
 - Subjective features, Results section
   - ![](https://github.com/Randell-janus/cvd-risk-detection/blob/master/public/snapshots/view2.JPG)
+- Mobile view
+  - ![](https://github.com/Randell-janus/cvd-risk-detection/blob/master/public/snapshots/mobile.JPG)
