@@ -2,7 +2,7 @@ import { useForm } from "../../contexts/FormContext";
 import { FormSectionLayout } from "../UtilComponents";
 
 const SliderInput = ({ feature, name, min, max, defaultValue, value }) => {
-  const { handleInputChange, systolic } = useForm();
+  const { handleInputChange } = useForm();
 
   return (
     <FormSectionLayout>

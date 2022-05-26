@@ -15,6 +15,6 @@ A machine learning application for detecting risk of cardiovascular disease
 ## Views
 
 - Objective, Examination features
-  - ![](https://github.com/Randell-janus/genetic-algorithm/blob/master/public/snapshots/view1.JPG)
+  - ![](https://github.com/Randell-janus/cvd-risk-detection/blob/master/public/snapshots/view1.JPG)
 - Subjective features, Results section
-  - ![](https://github.com/Randell-janus/genetic-algorithm/blob/master/public/snapshots/view2.JPG)
+  - ![](https://github.com/Randell-janus/cvd-risk-detection/blob/master/public/snapshots/view2.JPG)
